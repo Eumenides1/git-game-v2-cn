@@ -43,7 +43,7 @@ $ git clone https://github.com/Eumenides1/git-game--v2-cn.git
 然后在该哈希值上运行 `git show` 命令。 这将显示如何进入第三关的说明。
 
 ### 提示： 
-如果你卡住了，可以查看这个[stack overflow question](http://stackoverflow.com/questions/7663451/view-a-specific-git-commit)
+如果你卡住了，可以查看这个[stack overflow](http://stackoverflow.com/questions/7663451/view-a-specific-git-commit)
 
 
 
