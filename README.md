@@ -21,20 +21,6 @@
 ```
 $ git clone https://github.com/Eumenides1/git-game--v2-cn.git
 ```
-## Level 7
-你已经到达了第七级！太棒了！
-
-你准备好迎接更大的 Git 挑战了吗？
-
-好的！ 看起来一群恶意黑客已经攻击了 GitHub，并删除了我们仓库中的一个重要文件。 
-这个文件包含了 Linus Torvalds、Richard Stallman 的个人电子邮件和下一个分支的名称！ 
-他们还在删除文件后提交了数百个提交，所以我们无法手动查看提交历史记录。 这就是你的任务所在！
-
-你必须使用 `git grep` 命令搜索整个提交历史记录以找到这些电子邮件。 你的下一个提示是在域名 `jaguarliu.me` 之前的用户名称。 当你找到它时，切换到与此名称相同的分支。
-
-例如，如果电子邮件是 `yahoo@jaguarliu.me`，那么你需要切换到名为 yahoo 的分支。
-
-提示：最好使用 `git grep` 和 `git rev-list`，如此 [this stack overflow question](http://stackoverflow.com/questions/2928584/how-to-grep-search-committed-code-in-the-git-history)
-
-### 提示：
-如果你按照上面的提示中的链接，不要使用 `--all`选项。
+## Level 8
+欢迎来到 L8 ！！！！
+恭喜你，不过，剩下的关卡，你要稍等，如果迫切的想了解，那你可以关注[有趣程序员的 Bored Life](https://space.bilibili.com/386200342),给他留言，嘎嘎催他！
