@@ -9,4 +9,4 @@
 	url = https://github.com/anon-atlas/Leaf.git
 [submodule "Java"]
 	path = Java
-	url = https://github.com/anon-atlas/Java
+	url = https://github.com/anon-atlas/Java.git
