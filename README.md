@@ -42,7 +42,7 @@ $ git clone https://github.com/Eumenides1/git-game--v2-cn.git
 
 ### 额外提示： 
 
-如果你想进一步了解 git 对象，可以阅读有关 git 如何存储这些对象 的文章。
+如果你想进一步了解 git 对象，可以阅读有关[git stores these objects](http://alblue.bandlem.com/2011/08/git-tip-of-week-objects.html).
 
 
 
