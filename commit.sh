@@ -5,9 +5,9 @@ touch README.md
 
 for i in {1..100}
 do
-  echo "Commit $i"
+  echo "$1 For example, if the email was **yahoo@jaguarliu.me** then you are to checkout the the branch called **yahoo**."
   # 更新文件内容
-  echo "Commit $i" >> file.txt
+  echo "$1 For example, if the email was **yahoo@jaguarliu.me** then you are to checkout the the branch called **yahoo**." >> README.md
   git add file.txt
   git commit -m "Commit $i"
 done
