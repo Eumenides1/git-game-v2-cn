@@ -22,24 +22,29 @@
 $ git clone https://github.com/Eumenides1/git-game--v2-cn.git
 ```
 
-## Level 1
+## Level 2
 
-Level 1 演示了 `git ls-files` 命令的威力。 运行 `git ls-files` 命令会列出当前提交中的所有文件。 
-请查看[文档](http://git-scm.com/docs/git-ls-files)以获取更多细节。 
+你现在已经进入第二关了！这个关卡的目的是向你展示 `git show` 命令的威力。 
 
-你能想出为什么运行标准的 Unix `ls` 命令不会列出当前提交中的所有文件吗？
+运行此命令会显示一个或多个对象:
+- [blobs](http://gitready.com/beginner/2009/02/17/how-git-stores-your-data.html)
+- [trees](http://365git.tumblr.com/post/492744368/git-objects-the-tree)
+- [tags](http://git-scm.com/docs/git-tag)
+- [commits](http://gitref.org/basic/)
 
-你的任务是使用 `git ls-files` 命令来计算此提交中所有行的总数。 
+请查看 [文档](http://git-scm.com/docs/git-show)以获取更多细节。
 
-换句话说，计算每个文件中的行数，然后将所有这些数字相加以获取总数。
+你的任务是找出以下谜语的答案：
+> I have many keys but useless locks. I have space but no room. You can enter and also escape. What am I?
 
-要进入第二关，你需要切换到以总数命名的分支。 因此，如果总数为 780，则应运行：
+这个谜底在其中一个提交消息中。
+使用 `git log` 命令查找与提交消息对应的提交哈希值。
 
-```
-$ git checkout 780
-```
+然后在该哈希值上运行 `git show` 命令。 这将显示如何进入第三关的说明。
 
-### 提示：
-你需要使用管道将 git ls-files 与其他 Unix 实用程序结合起来。 
+### 提示： 
+如果你卡住了，可以查看这个stackoverflow问题。
 
-这个 [This stackoverflow question](http://stackoverflow.com/questions/4822471/count-number-of-lines-in-a-git-r)  问题有一个有用的示例，可以帮助你入门。
+
+
+
