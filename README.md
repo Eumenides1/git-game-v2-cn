@@ -21,29 +21,15 @@
 ```
 $ git clone https://github.com/Eumenides1/git-game--v2-cn.git
 ```
+## Level 3
 
-## Level 2
+恭喜你进入第三关！看来你已经掌握了如何使用 git show 的技巧。
+现在，为了进入下一关，你必须找出谁对这个分支做出了最大的贡献！
 
-你现在已经进入第二关了！这个关卡的目的是向你展示 `git show` 命令的威力。 
+你可以通过运行一个**简短**版本的 `git log` 命令来实现这一点。 一旦你找到了方法，就切换到该贡献者的分支名称。
 
-运行此命令会显示一个或多个对象:
-- [blobs](http://gitready.com/beginner/2009/02/17/how-git-stores-your-data.html)
-- [trees](http://365git.tumblr.com/post/492744368/git-objects-the-tree)
-- [tags](http://git-scm.com/docs/git-tag)
-- [commits](http://gitref.org/basic/)
+我们认为 [`git shortlog`](http://git-scm.com/docs/git-shortlog)  在这种情况下非常有用，但这只是我们的想法！
 
-请查看 [文档](http://git-scm.com/docs/git-show)以获取更多细节。
-
-你的任务是找出以下谜语的答案：
-> I have many keys but useless locks. I have space but no room. You can enter and also escape. What am I?
-
-这个谜底在其中一个提交消息中。
-使用 `git log` 命令查找与提交消息对应的提交哈希值。
-
-然后在该哈希值上运行 `git show` 命令。 这将显示如何进入第三关的说明。
-
-### 提示： 
-如果你卡住了，可以查看这个[stack overflow](http://stackoverflow.com/questions/7663451/view-a-specific-git-commit)
 
 
 
