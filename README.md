@@ -19,7 +19,7 @@
 
 首先，先 Clone 到代码到本地：
 ```
-$ git clone https://github.com/Eumenides1/git-game--v2-cn.git
+$ git clone https://github.com/Eumenides1/git-game-v2-cn.git
 ```
 ## Level 8
 欢迎来到 L8 ！！！！
