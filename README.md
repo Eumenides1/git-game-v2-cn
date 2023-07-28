@@ -32,7 +32,7 @@ $ git clone https://github.com/Eumenides1/git-game--v2-cn.git
  
 你需要传递的选项将允许你查看 git 仓库中的tree \ [object](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)  的哈希值。
 
-一旦你找到了合适的选项，下一步是使用它们来查找与树哈希值 3331d0b 相关联的提交消息。
+一旦你找到了合适的选项，下一步是使用它们来查找与树哈希值 **6538793** 相关联的提交消息。
 
 在找到与上面的哈希值相关联的正确提交消息后，切换到与消息同名的分支。 它应该只有一个单词！
 
