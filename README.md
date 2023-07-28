@@ -38,5 +38,3 @@ $ git clone https://github.com/Eumenides1/git-game--v2-cn.git
 
 ### 提示：
 如果你按照上面的提示中的链接，不要使用 `--all`选项。
-
-cherry@jaguarliu.me
