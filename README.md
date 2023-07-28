@@ -22,7 +22,7 @@
 $ git clone https://github.com/Eumenides1/git-game--v2-cn.git
 ```
 
-##Level 1
+## Level 1
 
 Level 1 演示了 `git ls-files` 命令的威力。 运行 `git ls-files` 命令会列出当前提交中的所有文件。 
 请查看[文档](http://git-scm.com/docs/git-ls-files)以获取更多细节。 
